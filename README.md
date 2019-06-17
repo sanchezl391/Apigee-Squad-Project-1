@@ -8,7 +8,7 @@
 ## Installing Server
 1. `cd Apigee-Squad-Project-1/server`
 2. install dependencies `npm install`
-3. run the server `npm start`
+3. run the server `npm start` or `nodemon index`
 
 ## Git Workflow
 1. Clone the repo `git clone {address}`

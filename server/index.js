@@ -1,5 +1,8 @@
 const express = require('express');
-const port = process.env.PORT || 5000;
+const config = require('./config/server.js'); 
 const app = express();
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+const helloWorldRoutes = require('./routes/hello.js');
+app.use(helloWorldRoutes);
+
+app.listen(config.port, () => console.log(`App listening on port ${config.port}!`));
