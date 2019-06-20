@@ -25,4 +25,4 @@
 
 Note: Remember to update the dev branch before creating your own branch. `git checkout dev` ,then `git pull`
 
-this is a change to teh dev branch readme
+this is an update into my personal feature branch
